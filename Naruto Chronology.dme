@@ -1,0 +1,101 @@
+// DM Environment file for Naruto Chronology.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+#define FILE_DIR 1 ATOM/
+#define FILE_DIR 3 VISUALS
+#define FILE_DIR 6 RESOURCES/
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "world.dmm"
+#include "1 ATOM\Atom.dm"
+#include "1 ATOM\Mobs\Clans.dm"
+#include "1 ATOM\Mobs\mob.dm"
+#include "1 ATOM\Mobs\Enemies\Enemy.dm"
+#include "1 ATOM\Mobs\Enemies\Safezone.dm"
+#include "1 ATOM\Mobs\Main Character\MainCharacter.dm"
+#include "1 ATOM\Mobs\Main Character\Movable.dm"
+#include "1 ATOM\Mobs\Main Character\Movement.dm"
+#include "1 ATOM\Mobs\Main Character\Statpanel.dm"
+#include "1 ATOM\Mobs\NPCS\NPC.dm"
+#include "1 ATOM\Obj\Battle Objects\Atmosphere.dm"
+#include "1 ATOM\Obj\Battle Objects\Earth.dm"
+#include "1 ATOM\Obj\Battle Objects\Electricity.dm"
+#include "1 ATOM\Obj\Battle Objects\Fire.dm"
+#include "1 ATOM\Obj\Battle Objects\Water.dm"
+#include "1 ATOM\Obj\Battle Objects\Wind.dm"
+#include "1 ATOM\Obj\Skill Objects\Armor.dm"
+#include "1 ATOM\Obj\Skill Objects\Battle.dm"
+#include "1 ATOM\Obj\Skill Objects\EbonyTree.dm"
+#include "1 ATOM\Obj\Skill Objects\EbonyWood.dm"
+#include "1 ATOM\Obj\Skill Objects\EbonyWoodSeed.dm"
+#include "1 ATOM\Obj\Skill Objects\EbonyWoodWalls.dm"
+#include "1 ATOM\Obj\Skill Objects\Fish.dm"
+#include "1 ATOM\Obj\Skill Objects\Floors.dm"
+#include "1 ATOM\Obj\Skill Objects\Food.dm"
+#include "1 ATOM\Obj\Skill Objects\Gold.dm"
+#include "1 ATOM\Obj\Skill Objects\Iron.dm"
+#include "1 ATOM\Obj\Skill Objects\KageWall.dm"
+#include "1 ATOM\Obj\Skill Objects\Magicarp.dm"
+#include "1 ATOM\Obj\Skill Objects\Minerals.dm"
+#include "1 ATOM\Obj\Skill Objects\Obj.dm"
+#include "1 ATOM\Obj\Skill Objects\Ores.dm"
+#include "1 ATOM\Obj\Skill Objects\Plantable.dm"
+#include "1 ATOM\Obj\Skill Objects\Skills Procedures.dm"
+#include "1 ATOM\Obj\Skill Objects\SoftWood.dm"
+#include "1 ATOM\Obj\Skill Objects\SoftWoodSeed.dm"
+#include "1 ATOM\Obj\Skill Objects\Stone.dm"
+#include "1 ATOM\Obj\Skill Objects\StoneWalls.dm"
+#include "1 ATOM\Obj\Skill Objects\Techniques.dm"
+#include "1 ATOM\Obj\Skill Objects\Trees and Mining.dm"
+#include "1 ATOM\Obj\Skill Objects\Walls.dm"
+#include "1 ATOM\Obj\Skill Objects\Wood.dm"
+#include "1 ATOM\Obj\Skill Objects\WoodBoat.dm"
+#include "1 ATOM\Obj\Skill Objects\WoodFloor.dm"
+#include "1 ATOM\Obj\Skill Objects\WoodWalls.dm"
+#include "1 ATOM\Obj\Skill Objects\Equipment\Equipment.dm"
+#include "1 ATOM\Turfs\turf.dm"
+#include "1 ATOM\Turfs\Environment\Environment.dm"
+#include "1 ATOM\Turfs\Environment\Grass.dm"
+#include "1 ATOM\Turfs\Environment\Sand.dm"
+#include "1 ATOM\Turfs\Environment\Water.dm"
+#include "2 LOGIC\Bumper.dm"
+#include "2 LOGIC\global proc.dm"
+#include "2 LOGIC\IDs.dm"
+#include "2 LOGIC\Naruto Chronology.dm"
+#include "2 LOGIC\Battle Logic\BattleMethods.dm"
+#include "2 LOGIC\Battle Logic\BattleObjects.dm"
+#include "2 LOGIC\Battle Logic\ChakraElement.dm"
+#include "2 LOGIC\Battle Logic\Death.dm"
+#include "2 LOGIC\Battle Logic\Move Delay.dm"
+#include "2 LOGIC\Inventory\Contents.dm"
+#include "2 LOGIC\Levelup Logic\Perks.dm"
+#include "2 LOGIC\Levelup Logic\Skill Points.dm"
+#include "2 LOGIC\Login Logout Saving\Login.dm"
+#include "2 LOGIC\Login Logout Saving\Saving.dm"
+#include "2 LOGIC\Tko Library\Color.dm"
+#include "2 LOGIC\Tko Library\TkoLists.dm"
+#include "2 LOGIC\Tko Library\TkoText.dm"
+#include "2 LOGIC\Tko Library\Math\TkoMath.dm"
+#include "3 VISUALS\DamageNums.dm"
+#include "3 VISUALS\Overlays.dm"
+#include "3 VISUALS\VisualEffects.dm"
+#include "3 VISUALS\Screen\alphabet.dm"
+#include "3 VISUALS\Screen\Client Screen.dm"
+#include "3 VISUALS\Screen\Health.dm"
+#include "4 DEBUG\DEBUG_VERBS.dm"
+#include "5 GAME DESIGN\Layers.dm"
+#include "5 GAME DESIGN\TODO.dm"
+// END_INCLUDE
+

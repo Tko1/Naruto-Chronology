@@ -1,0 +1,19 @@
+// BEGIN_INTERNALS
+/*
+LAST_COMPILE_TIME: 1508811315
+DIR: 1 ATOM 1 ATOM\Mobs 1 ATOM\Mobs\Main Character 2 LOGIC 2 LOGIC\Inventory 2 LOGIC\Login Logout Saving 2 LOGIC\Tko Library 3 VISUALS 3 VISUALS\Screen 
+PACKAGE_RSC_NAME: D:\programming\byond\NC\Naruto Chronology_src\Naruto Chronology\Naruto Chronology_rsc.zip
+AUTO_FILE_DIR: OFF
+PACKAGE_DMB_INFO: 
+MAP_ICON_TYPE: 0
+PACKAGE_DME_NAME: D:\programming\byond\NC\Naruto Chronology_src\Naruto Chronology\Naruto Chronology_src.zip
+LAST_COMPILE_VERSION: 509.1319
+PACKAGE_DME_START: 
+PACKAGE_TYPE: 1
+WINDOW: 1 ATOM\Mobs\Main Character\Statpanel.dm;world.dmm;2 LOGIC\Login Logout Saving\Login.dm;2 LOGIC\Tko Library\Color.dm;3 VISUALS\Screen\Client Screen.dm;2 LOGIC\Inventory\Contents.dm;2 LOGIC\Login Logout Saving\Saving.dm;3 VISUALS\Overlays.dm;1 ATOM\Mobs\Main Character\MainCharacter.dm;1 ATOM\Mobs\Main Character\Movable.dm;2 LOGIC\global proc.dm;1 ATOM\Mobs\Main Character\Movement.dm;2 LOGIC\Naruto Chronology.dm;2 LOGIC\Tko Library\TkoText.dm
+PACKAGE_DME_INFO: 
+FILE: 2 LOGIC\global proc.dm
+PACKAGE_DME_DEMO: 
+PACKAGE_DMB_NAME: D:\programming\byond\NC\Naruto Chronology_src\Naruto Chronology\Naruto Chronology.zip
+*/
+// END_INTERNALS
